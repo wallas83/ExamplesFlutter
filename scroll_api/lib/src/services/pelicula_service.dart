@@ -5,7 +5,7 @@ import 'package:scroll_api/src/model/pelicula_model.dart';
 import 'package:http/http.dart' as http;
 
 class PeliculaService with ChangeNotifier {
-  String _apikey = '[YOUR API KEY]';
+  String _apikey = 'a1fc912350683ec562080e542a554ec1';
   String _url = 'https://api.themoviedb.org';
   String _language = 'en-US';
   
